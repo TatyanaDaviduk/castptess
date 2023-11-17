@@ -1,0 +1,123 @@
+@import "../components/header/header.scss";
+@import "../components/footer/footer.scss";
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Oswald-Regular.woff') format('woff'), url('../fonts/Oswald-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SourceSerifPro-SemiBold';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/SourceSerifPro-SemiBold.woff') format('woff'), url('../fonts/SourceSerifPro-SemiBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SourceSerifPro-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/SourceSerifPro-Regular.woff') format('woff'), url('../fonts/SourceSerifPro-Regular.woff2') format('woff2');
+}
+$color-title: #222;
+$color-text: #555;
+$accent-color: #7247CA;
+$gray-light:#979797;
+
+
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+ul,
+li{
+    margin: 0;padding: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: $color-text;
+    font-family: 'SourceSerifPro-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.container{
+    max-width: 700px;
+    padding: 15px 0 15px 0;
+    margin: 0 auto;
+}
+.title {
+    font-family: 'SourceSerifPro-SemiBold';
+    font-weight: 600;
+    font-size: 26px;
+    color: $color-title;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+.team {
+    margin-bottom: 64px;
+    // .team__title
+    &__title {
+    }
+    // .team__cards
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    // .team__card
+    &__card {
+        width: 301px;
+        height: 435px;
+    }
+    // .team__card-photo
+    &__card-photo {
+    }
+    // .team__card-title
+    &__card-title {
+    }
+    // .team__card-name
+    &__card-name {
+    }
+    // .team__card-socials
+    &__card-socials {
+    }
+}
+
+.socials {
+    // .socials__item
+    &__item {
+    }
+}
+.socials-link {
+}

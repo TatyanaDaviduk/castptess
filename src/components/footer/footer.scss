@@ -1,0 +1,78 @@
+.footer {
+    // .footer__inner
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    // .footer__nav
+    &__nav {
+    }
+    &__menu{
+
+        
+    }
+    // .footer__menu-item
+    &__menu-item {
+        &:not(:last-child){
+            margin-bottom: 9px;
+        }
+    }
+    // .footer__menu-link
+    &__menu-link {
+        color: #555;
+        text-transform:capitalize;
+        font-family: 'SourceSerifPro-SemiBold';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    // .footer__form
+    &__form {
+        max-width: 315px;
+    }
+    // .footer__form-title
+    &__form-title {
+        color: #222;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 2.56px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+    &__form-subtitle{
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: lowercase;
+    } 
+    // .footer__form-inner
+    &__form-inner {
+        position: relative;
+        margin-top: 14px;
+    }
+    // .footer__form-input
+    &__form-input {
+        padding: 14px 53px 14px 14px;
+        width: 100%;
+        height: 42px;
+        border-radius: 4px;
+        background-color: #F5F5F7;
+        border: none;
+        &::placeholder{
+            text-transform: capitalize;
+        }
+    }
+    // .footer__form-btn
+    &__form-btn {
+        position: absolute;
+        right: 3px;
+        bottom: 3px;
+        height: 36px;
+        width: 36px;
+        background-color: #7247CA;
+        border-radius: 4px;
+        background-image: url("../images/svg/Arrow 3.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
