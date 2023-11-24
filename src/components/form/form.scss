@@ -1,0 +1,62 @@
+.form {
+    display: flex;
+    flex-direction: column;
+		// .form__label
+		&__label {
+            margin-bottom: 4px;
+            color:  #555;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px; /* 156.25% */
+
+    
+		}
+        &__label-check{
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap:8px;
+            line-height: normal;
+
+        }
+		// .form__textarea
+		&__textarea {
+            resize: none;
+            border: none;
+            background-color: #F5F5F7;
+            border-radius: 4px;
+            height: 150px;
+            margin-bottom: 28px;
+		}
+		// .form__input
+		&__input {
+            border: none;
+            background-color: #F5F5F7;
+            border-radius: 4px;
+            height: 42px;
+            margin-bottom: 28px;
+
+		}
+        &__custom-checkbox{
+            height: 14px;
+            width: 14px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            margin: 0;
+        }
+
+		// .form__button
+		&__button {
+            margin-top: 42px;
+            //background-color: #7247CA;
+           // color: #F5F5F7;
+           // border-radius: 4px;
+           // background-image: url("../images/svg/Arrow 3.svg");
+           // background-repeat: no-repeat;
+           // background-position-x: 69px;
+           // background-position-y: center;
+            width: 90px;
+           // padding: 8px 29px 8px 16px;
+           // font-size: 14px;
+		}
+}

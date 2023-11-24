@@ -1,0 +1,54 @@
+.comment {
+    // .comment__info
+    &__info {
+        display: flex;
+    
+    }
+    // .comment__user-img
+    &__user-img {
+        height: 50px;
+        width: 50px;
+        min-height: 50px;
+        min-width: 50px;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-right: 24px;
+    }
+    &__user-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap:4px 16px;
+        margin-bottom: 8px;
+    }
+    // .comment__user-name
+    &__user-name {
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    // .comment__user-date
+    &__user-date {
+        color: #979797;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    // .comment__text
+    &__text {
+        margin-left: 74px;
+        margin-bottom: 16px;
+        line-height: 25px; 
+    }
+    // .comment__reply-btn
+    &__reply-btn {
+        margin-left: 74px;
+        margin-bottom: 39px;
+        color:  #979797;
+        font-size: 14px;
+        text-transform: capitalize;
+        background-image: url('../images/svg/Vector.svg');
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 22px;
+    }
+}
+
+
