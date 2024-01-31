@@ -13,7 +13,7 @@ Template Name: home
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/content/episodies/1.jpg" alt="">
                 </div>
                 <h2 class="listen__name">
-                    <a href="">How to rapidly test any experience!</a> </h2>
+                    <a href=""><?php echo get_post_meta($post->ID,'listen__name', true);?></a> </h2>
                 <div class="listen__player">
                     <audio controls>
                         <source src="" type="audio/mpeg">
